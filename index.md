@@ -1,3 +1,4 @@
+layout: default
 # Suicide Trends Overview
 ## INFO 250 Final Project
 ## by Stephanie Bankes
