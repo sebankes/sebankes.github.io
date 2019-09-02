@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+# Suicide Trends Overview
+## INFO 250 Final Project
+## by Stephanie Bankes
 
-You can use the [editor on GitHub](https://github.com/sebankes/sebankes.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Introduction
+For my final project in INFO 250, I worked with a dataset called, "Suicide Rates Overview 1985 to 2016", which was posted on kaggle by user "Rusty". 
 
-### Markdown
+Suicide is the 10th leading cause of death in the United States, and there were approximately 1,400,000 suicide attempts in 2017. Understanding the trends behind deaths by suicide, and the main groups of people affected can help prevent future suicides and save lives.
+This dataset describes suicide rates grouped by country, year and age population, and sex. So, for each country there is a row for each unique combination of year, population and sex.
+ Overall, the dataset has 27820 rows and 12 columns, which represent a total of 6,748,420 people who died by suicide from 1985 to 2015.
+ 
+ You can view my previous report on the dataset [here](https://github.com/sebankes/INFO_250_Final/blob/master/Info_250_Final_2A.ipynb).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Visualization
 
-```markdown
-Syntax highlighted code block
+You can view the link to my final visualization [here](https://public.tableau.com/profile/stephanie7608#!/vizhome/StephanieBankes_INFO250Final/SuicideTrends?publish=yes).
 
-# Header 1
-## Header 2
-### Header 3
+The information in the dataset can be used to identify the groups most at risk of suicide, and can help target those groups for help. 
 
-- Bulleted
-- List
+This dashboard contains three visualizations. The first is a map which shows suicide rates (no. suicides per 100K people) by country. We can see that Russia, along with some smaller counties in Europe have the highest suicide rates. The next visualization compares suicide rates with GPD per catipia, using a scatterplot. We see a slight positive correlation between number of suicides and GDP. Finally, I created a line chart that shows the total number of suicides per year, grouped by gender. Males consitently had higher suicide rates than females. Males and females mostly followed the same trends, but males trends were a little more dramatic. 
 
-1. Numbered
-2. List
+### Changes from project 1B
 
-**Bold** and _Italic_ and `Code` text
+There have been several changes made since the last iteration of this project. First, I moved the map visualization to the top of the dashboard, so it is easier to read, and more spread out. Next, I added captions to each of the graphs. This makes the dashboard easier to interpret. Finally, I changed the graph type of my last visualization. I originally had a bar chart for males and females, showing each country on the x-axis and total number of suicides on the y- axis. I changed this graph to be a line chart, with years on the x axis and total suicides on the y axis. This graph makes a lot more sense, because it is easier to digest, and adds more meaningful visual patterns. 
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sebankes/sebankes.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
